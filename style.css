@@ -55,12 +55,43 @@ button{
     transition: all;
     transition-duration: 1s;
     transition-timing-function: linear;
-    cursor: default;
     cursor: pointer;
     box-shadow: 2px 2px 2px;
 }
 button:hover{
     background-color: brown;
     color: white;
+}
+@media (max-width: 600px) {
+    body {
+        background: url(Background1.jpg);
+        background-size: cover;
+    }
+
+    ul {
+      display: none;
+    }
+
+    li {
+        display: none;
+    }
+
+    #content {
+        font-size: 2rem;
+        text-align: center;
+        padding: 10px;
+    }
+
+    #para {
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 5px;
+    }
+
+    button {
+        padding: 15px;
+        width: 150px;
+        font-size: 1rem;
+    }
 }
 
